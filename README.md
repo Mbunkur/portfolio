@@ -1,3 +1,5 @@
-#React Portfolio app
-#NAME - ALAIN NKEH MBUNKUR
-#MATRICULE - FE21A133
+#-React Portfolio app
+
+NAME - ALAIN NKEH MBUNKUR
+
+MATRICULE - FE21A133
