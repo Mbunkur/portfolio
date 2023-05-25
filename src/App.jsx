@@ -9,18 +9,19 @@ import Testimonial from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact' 
 import Footer from './components/footer/Footer'
 
-function App() { 
+const App = () => { 
     return ( 
     <> 
-    <Header/> 
-    <Navbar/> 
-    <About/> 
-    <Experience/> 
-    <Services/> 
-    <Portfolio/>
-    <Testimonial/> 
-    <Contact/> 
-    <Footer/> </>
+        <Header /> 
+        <Navbar /> 
+        <About /> 
+        <Experience /> 
+        <Services /> 
+        <Portfolio />
+        <Testimonial /> 
+        <Contact /> 
+        <Footer /> 
+    </>
 );
 }
 
