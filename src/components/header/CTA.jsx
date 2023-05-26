@@ -9,4 +9,4 @@ function CTA() {
         </div>
     )
 }
-export default CTA;  /*this line indicates that this component can be imported and used everywhere in our applicatio*/
+export default CTA  /*this line indicates that this component can be imported and used everywhere in our applicatio*/
