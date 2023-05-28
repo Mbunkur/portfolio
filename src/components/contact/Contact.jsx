@@ -13,8 +13,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current,
-      'EmSdUNQzQuxkUqGWx');
+    emailjs.sendForm('service_5vuauza', 'template_fdnnl56', form.current,'EmSdUNQzQuxkUqGWx');
     e.target.reset()
       .then((result) => {
         console.log(result.text);
@@ -32,7 +31,7 @@ function Contact() {
           <article className='contact__option'>
             <MdOutlineEmail className='contact__option__icon' />
             <h4>Email</h4>
-            <h5>myEmail@gmail.com</h5>
+            <h5>alainmbunkur@gmail.com</h5>
             <a href='mailto:alainmbunkur@gmail.com' target='_blank'>send a message</a>
           </article>
 
@@ -47,7 +46,7 @@ function Contact() {
           <article className='contact__option'>
             <BsWhatsapp className='contact__option__icon' />
             <h4>Whatsapp</h4>
-            <h5>Direct message</h5>
+            <h5>+237650030811</h5>
             <a href='https://web.whatsapp.com/send?phone=+237650030811'
               target='_blank'>Write to me on Whatsapp </a>
           </article>
