@@ -37,6 +37,7 @@
 @media only screen and (max-width:1024px) {
     .container.testimonial__container{
         width: 60%;
+        height: auto;
     }
     
 }
@@ -47,6 +48,7 @@
     }
 
     .container.testimonial__container{
+        height: auto;
         width:var(--container--width-sm)
     }
 }
