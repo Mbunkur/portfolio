@@ -4,7 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlineLinkedin} from 'react-icons/ai' 
 import {BsWhatsapp} from 'react-icons/bs' 
 import {useRef} from 'react' 
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser';
 
 
 function Contact() {
@@ -13,7 +13,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_k5789j8', 'template_afdx35f', form.current,'OtXD9TskYJm7dJjAr');
+    emailjs.sendForm('service_k5789j8', 'template_lbjoipr', form.current,'OtXD9TskYJm7dJjAr');
     e.target.reset()
       .then((result) => {
         console.log(result.text);
