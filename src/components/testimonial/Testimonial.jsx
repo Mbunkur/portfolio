@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios';
-import './testimonials.css'
+import './testimonial.css'
 import { Pagination} from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,7 +16,7 @@ const Testimonials = () => {
 
   useEffect(()=> {
     axios
-      .get("https://portfolio-backend-end.cyclic.app/api/testimonial")
+      .get("https://tame-plum-crab-kilt.cyclic.app/api/testimonial")
       .then(res =>{
         const formattedData = res.data.data.map(item => ({
           id: item._id,

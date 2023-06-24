@@ -7,7 +7,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     axios
-      .get('https://portfolio-backend-end.cyclic.app/api/portfolio')
+      .get('https://tame-plum-crab-kilt.cyclic.app/api/portfolio')
       .then(response => {
         const formattedData = response.data.data.map(item => ({
           id: item._id,
